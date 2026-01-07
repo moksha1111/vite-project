@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+body {
+  background-color: #fff8f1;
+}
+
+button {
+  cursor: pointer;
+}
+
+a,
+h1,
+button,
+.icon,
+label {
+  color: black;
+  text-decoration: none;
+}
+
+.main {
+  overflow: hidden;
+  min-height: 100vh;
+  position: relative;
+}
+
+.routes {
+  z-index: 50;
+  position: relative;
+}
