@@ -365,7 +365,41 @@
   color: #7e6f67;
   font-size: 16px;
 }
-@media (max-width: 639px) {
+
+@media (max-width: 1535px) {
+  .homepage {
+    padding: 4rem 4rem;
+  }
+  .homepage .text {
+    gap: 2rem;
+  }
+  .homepage .background img {
+    width: 100%;
+  }
+
+  .homepage .text > h2 {
+    font-size: 50px;
+  }
+
+  .homepage .text > p {
+    font-size: 18px;
+  }
+
+  .smartlogistics {
+    padding: 3rem 2rem;
+  }
+
+  .discover .card-container .cards {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem 5rem;
+  }
+
+  .discover .card-container .cards .card .text h3 {
+    font-size: 14px;
+    text-align: inherit;
+  }
+}
+@media (max-width: 1023px) {
   .homepage {
     background: #ffc5ae47;
     padding: 1rem 1rem;
@@ -407,10 +441,6 @@
   }
 
   .whyfoodfleet > p {
-    text-align: center;
-  }
-
-  element {
     text-align: center;
   }
 
@@ -470,7 +500,6 @@
     padding-top: 2rem;
   }
 }
-
 @media (max-width: 767px) {
   .homepage {
     background: #ffc5ae47;
@@ -576,8 +605,7 @@
     padding-top: 2rem;
   }
 }
-
-@media (max-width: 1023px) {
+@media (max-width: 639px) {
   .homepage {
     background: #ffc5ae47;
     padding: 1rem 1rem;
@@ -619,6 +647,10 @@
   }
 
   .whyfoodfleet > p {
+    text-align: center;
+  }
+
+  element {
     text-align: center;
   }
 
@@ -676,35 +708,5 @@
     gap: 3rem 0rem;
     padding-bottom: 2rem;
     padding-top: 2rem;
-  }
-}
-
-@media (max-width: 1535px) {
-  .homepage {
-    padding: 4rem 4rem;
-  }
-  .homepage .text {
-    gap: 2rem;
-  }
-  .homepage .background img {
-    width: 100%;
-  }
-
-  .homepage .text > h2 {
-    font-size: 50px;
-  }
-
-  .homepage .text > p {
-    font-size: 18px;
-  }
-
-  .smartlogistics {
-    padding: 3rem 2rem;
-  }
-
-  .discover .card-container .cards {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 2rem 5rem;
   }
 }

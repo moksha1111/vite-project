@@ -166,8 +166,7 @@ header {
   padding: 0.8rem;
 }
 
-/* Responsive Styles */
-@media (max-width: 639px) {
+@media (max-width: 1023px) {
   /* Hide desktop navigation on mobile */
   .desktop-nav,
   .desktop-auth {
@@ -185,7 +184,6 @@ header {
     justify-content: space-between;
   }
 }
-
 @media (max-width: 767px) {
   /* Hide desktop navigation on mobile */
   .desktop-nav,
@@ -204,8 +202,8 @@ header {
     justify-content: space-between;
   }
 }
-
-@media (max-width: 1023px) {
+/* Responsive Styles */
+@media (max-width: 639px) {
   /* Hide desktop navigation on mobile */
   .desktop-nav,
   .desktop-auth {
